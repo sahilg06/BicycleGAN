@@ -16,7 +16,7 @@ Many image-to-image translation problems are ambiguous, as a single input image 
 }
 ```
 
-## Installation
+#### Installation
     $ git clone https://github.com/sahilg06/BicycleGAN.git
     $ cd BicycleGAN/
     $ sudo pip3 install -r requirements.txt
