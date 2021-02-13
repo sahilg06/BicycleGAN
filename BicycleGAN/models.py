@@ -100,7 +100,7 @@ class Generator(nn.Module):
 
 
 class Encoder(nn.Module):
-    def __init__(self, latent_dim, input_shape):
+    def __init__(self, channels, latent_dim, input_shape):
         super(Encoder, self).__init__()
         resnet18_model = resnet18(pretrained=False)
         # to change the in_channels in 1st layer of resnet18
