@@ -54,7 +54,7 @@ mae_loss = torch.nn.L1Loss()
 
 # Initialize generator, encoder and discriminators
 generator = Generator(opt.latent_dim, input_shape)
-encoder = Encoder(opt.latent_dim, input_shape)
+encoder = Encoder(opt.channels, opt.latent_dim, input_shape)
 D_VAE = MultiDiscriminator(input_shape)
 D_LR = MultiDiscriminator(input_shape)
 
