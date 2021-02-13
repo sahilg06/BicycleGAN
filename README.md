@@ -34,5 +34,5 @@ $ python3 bicyclegan.py
 #### Run Example For denoising task
 ```
 $ cd BicycleGAN/
-$ python3 Denoising_CIFAR10.py
+$ python3 Denoising_CIFAR10.PY
 ```
