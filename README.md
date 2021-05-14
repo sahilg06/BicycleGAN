@@ -37,4 +37,4 @@ $ python3 bicyclegan.py
 $ cd BicycleGAN/
 $ python3 Denoising_CIFAR10.PY
 ```
-#### Analyse the results using Learned Perceptual Image Patch Similarity (LPIPS) metric [here](/BicycleGAN/lpips.ipynb)
+#### Analyse the results using Learned Perceptual Image Patch Similarity ([LPIPS](https://github.com/richzhang/PerceptualSimilarity)) metric [here](/BicycleGAN/lpips.ipynb)
