@@ -18,6 +18,25 @@ Many image-to-image translation problems are ambiguous, as a single input image 
 }
 ```
 
+## Structure
+.
+├── BicycleGAN
+│   ├── Denoising_CIFAR10.PY
+│   ├── Results
+│   │   ├── CIFAR10
+│   │   └── Edges2Shoes
+│   ├── bicyclegan.py
+│   ├── datasets.py
+│   ├── lpips.ipynb
+│   └── models.py
+├── Blog.ipynb
+├── README.md
+├── data
+│   └── download_pix2pix_dataset.sh
+├── img
+├── requirements.txt
+└── tree.txt
+
 #### Installation
     $ git clone https://github.com/sahilg06/BicycleGAN.git
     $ cd BicycleGAN/
