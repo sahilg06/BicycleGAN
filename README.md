@@ -9,19 +9,6 @@ Many image-to-image translation problems are ambiguous, as a single input image 
   <img src="https://user-images.githubusercontent.com/59660566/123057439-7f53aa00-d425-11eb-88b7-ba97ed940b3d.png" />
 </p>
 
-## Reference
-
-```
-@misc{zhu2018multimodal,
-      title={Toward Multimodal Image-to-Image Translation}, 
-      author={Jun-Yan Zhu and Richard Zhang and Deepak Pathak and Trevor Darrell and Alexei A. Efros and Oliver Wang and Eli Shechtman},
-      year={2018},
-      eprint={1711.11586},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
-
 ### Structure
 ```
 .BicycleGAN
@@ -79,3 +66,18 @@ Ist column contains original images of CIFAR10. I denoised them and passed them 
 
 
 #### Analyse the results using Learned Perceptual Image Patch Similarity ([LPIPS](https://github.com/richzhang/PerceptualSimilarity)) metric [here](/BicycleGAN/lpips.ipynb)
+
+### References
+
+```
+@misc{zhu2018multimodal,
+      title={Toward Multimodal Image-to-Image Translation}, 
+      author={Jun-Yan Zhu and Richard Zhang and Deepak Pathak and Trevor Darrell and Alexei A. Efros and Oliver Wang and Eli Shechtman},
+      year={2018},
+      eprint={1711.11586},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+[https://github.com/eriklindernoren/PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN)
