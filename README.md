@@ -59,7 +59,7 @@ $ python3 Denoising_CIFAR10.PY
 
 
 #### For denoising task 
-Ist column contains original images of CIFAR10. I denoised them and passed them as an input to the network. It produced interesting results with variations.
+Ist column contains original images of CIFAR10. I noised them and passed them as an input to the network. It produced interesting results with variations.
 
 ![316800](https://user-images.githubusercontent.com/59660566/123058815-ce4e0f00-d426-11eb-804e-5fd3cc873fbd.png)
 
