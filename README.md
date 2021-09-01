@@ -67,6 +67,8 @@ Ist column contains original images of CIFAR10. I noised them and passed them as
 
 #### Analyse the results using Learned Perceptual Image Patch Similarity ([LPIPS](https://github.com/richzhang/PerceptualSimilarity)) metric [here](/BicycleGAN/lpips.ipynb)
 
+#### [Link of the medium.com Blog](https://medium.com/@sahil_g/bicyclegan-c104b2c22448)
+
 ### References
 
 ```
